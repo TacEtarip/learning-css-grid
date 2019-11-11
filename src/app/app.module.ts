@@ -7,6 +7,7 @@ import { GridPartSevenComponent } from './grid-part-seven/grid-part-seven.compon
 import { GridThreeComponent } from './grid-three/grid-three.component';
 import { GridThreePartTwoComponent } from './grid-three-part-two/grid-three-part-two.component';
 import { GridFourComponent } from './grid-four/grid-four.component';
+import { GridFivePartOneComponent } from './grid-five-part-one/grid-five-part-one.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { GridFourComponent } from './grid-four/grid-four.component';
     GridPartSevenComponent,
     GridThreeComponent,
     GridThreePartTwoComponent,
-    GridFourComponent
+    GridFourComponent,
+    GridFivePartOneComponent,
   ],
   imports: [
     BrowserModule
