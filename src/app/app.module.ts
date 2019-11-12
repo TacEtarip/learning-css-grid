@@ -12,6 +12,7 @@ import { GridFivePartTwoComponent } from './grid-five-part-two/grid-five-part-tw
 import { GridFivePartThreeComponent } from './grid-five-part-three/grid-five-part-three.component';
 import { GridSixPartOneComponent } from './grid-six-part-one/grid-six-part-one.component';
 import { RevealDirective } from './reveal.directive';
+import { GridSixPartTwoComponent } from './grid-six-part-two/grid-six-part-two.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { RevealDirective } from './reveal.directive';
     GridFivePartThreeComponent,
     GridSixPartOneComponent,
     RevealDirective,
+    GridSixPartTwoComponent,
   ],
   imports: [
     BrowserModule
